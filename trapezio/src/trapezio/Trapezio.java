@@ -12,7 +12,7 @@ public class Trapezio {
 		float altura;
 		
 		base_maior = 15.5f;
-		base_menor = 8.0f;
+		base_menor = 8f;
 		altura = 4.5f;
 		
 		área = (base_maior + base_menor) * altura / 2;

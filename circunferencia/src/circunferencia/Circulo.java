@@ -6,12 +6,12 @@ public class Circulo {
 		
 		//Cálculo do Circunferência//
 		
-		float PI;
+		final float PI;
 		float raio;
 		float circunferência;
 		
 		PI = 3.14f;
-		raio = 3.0f;
+		raio = 3f;
 				
 		circunferência = (raio * raio) * PI;
 		

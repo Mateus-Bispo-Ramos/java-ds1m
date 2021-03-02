@@ -11,7 +11,7 @@ public class Imc {
 		float imc;
 		
 		peso  = 63f;
-		altura = 1.70f;
+		altura = 1.7f;
 		imc = peso / (altura * altura);
 		
 		System.out.print("o IMC é igual a " +imc);

@@ -4,31 +4,18 @@ public class Retangulo {
 
 	public static void main (String[] args) {
 		
-		//Cálculo do Perímetro//
-		
 		float área;
-		float lado_maior;
-		float lado_menor;
+		float base;
+		float altura;
+		float perímetro;
 		
-		lado_maior = 10.0f;
-		lado_menor = 5.0f;
+		base = 10f;
+		altura = 5f;
 		
-		área = lado_maior * lado_menor;
+		área = base * altura;
+		perímetro = 2 * (base + altura);
 		
 		System.out.println("a ÁREA do Retângulo é igual a " + área);
-		
-		
-		
-		//Cálculo do Perímetro//
-		
-		float perímetro;
-		float aresta_maior;
-		float aresta_menor;
-		
-		aresta_maior = 17.5f;
-		aresta_menor = 8.5f;
-		
-		perímetro = aresta_maior + aresta_menor;
 		
 		System.out.println("o PERÍMETRO do Retângulo é igual a "  + perímetro);
 		
