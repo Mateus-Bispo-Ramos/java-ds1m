@@ -1,0 +1,27 @@
+package retangulo;
+
+public class Retangulo {
+
+	public static void main (String[] args) {
+		
+		float área;
+		float lado_maior = 10f;
+		float lado_menor = 5f;
+		
+		área = lado_maior * lado_menor;
+		
+		System.out.println(área);
+		
+		
+		
+		float perímetro;
+		float aresta_maior = 17.5f;
+		float aresta_menor = 8.5f;
+		
+		perímetro = aresta_maior + aresta_menor;
+		
+		System.out.println("O perímetro é "perímetro);
+		
+	}
+	
+}

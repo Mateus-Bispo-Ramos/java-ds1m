@@ -1,0 +1,14 @@
+package imc;
+
+public class Imc {
+	
+	public static void main (String[] args) {
+		
+		float peso;
+		
+		float altura;
+		
+		
+	}
+	
+}

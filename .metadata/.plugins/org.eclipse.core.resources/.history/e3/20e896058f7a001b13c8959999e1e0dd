@@ -1,0 +1,13 @@
+package imc;
+
+public class Imc {
+	
+	public static void main (String[] args) {
+		
+		float peso  = 63;
+		float altura = 1,70;
+		float imc = peso * peso / altura;
+		
+	}
+	
+}
